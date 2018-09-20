@@ -9,6 +9,13 @@ body {
 }
 
 /* FORM */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .form {
     width: 500px;
     margin: 0 auto;

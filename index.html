@@ -10,7 +10,9 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Formulário</h1>
+    </header>
     <form action="#" class="form">
 
         <div>
@@ -21,6 +23,7 @@
         <div>
             <label for="texto">Senha</label>
             <input type="password" name="texto" placeholder="Digite sua senha" class="senha">
+            <button id="botaoVL">Validar Login</button>
         </div>
 
         <div>
@@ -30,13 +33,17 @@
                 <input type="checkbox" name="masculino" value="Masculino"> Masculino <br>
                 <input type="checkbox" name="outro" value="Outro"> Outro <br>
             </div>
+            <button id="botaoVG">Validar gênero</button>
         </div>
 
         <div>
             <label for="texto">Escolha uma opção</label>
             <div class="opcoesr">
-                <input type="radio" name="poder" value="Mulher"> Super força <br>
+                <input type="radio" name="trabalho" value="Estagio"> Estágio <br>
+                <input type="radio" name="trabalho" value="Efetivo"> Efetivo - CLT <br>
+                <input type="radio" name="trabalho" value="Autônomo"> Autônomo <br>
             </div>
+            <button id="botaoVG">Validar opção</button>
         </div>
 
         <div>
