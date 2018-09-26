@@ -29,9 +29,9 @@
         <div>
             <label for="texto">Selecione o gênero</label>
             <div class="opcoescb">
-                <input type="checkbox" name="feminino" value="Feminino"> Feminino <br>
-                <input type="checkbox" name="masculino" value="Masculino"> Masculino <br>
-                <input type="checkbox" name="outro" value="Outro"> Outro <br>
+                <input type="checkbox" id="feminino" name="feminino" value="Feminino"> Feminino <br>
+                <input type="checkbox" id="masculino" name="masculino" value="Masculino"> Masculino <br>
+                <input type="checkbox" id="outro" name="outro" value="Outro"> Outro <br>
             </div>
             <button id="botaoVG">Validar gênero</button>
         </div>
@@ -39,20 +39,20 @@
         <div>
             <label for="texto">Escolha uma opção</label>
             <div class="opcoesr">
-                <input type="radio" name="trabalho" value="Estagio"> Estágio <br>
-                <input type="radio" name="trabalho" value="Efetivo"> Efetivo - CLT <br>
-                <input type="radio" name="trabalho" value="Autônomo"> Autônomo <br>
+                <input type="radio" id="estagio" name="trabalho" value="Estagio"> Estágio <br>
+                <input type="radio" id="clt" name="trabalho" value="Efetivo"> Efetivo - CLT <br>
+                <input type="radio" id="autonomo" name="trabalho" value="Autônomo"> Autônomo <br>
             </div>
-            <button id="botaoVG">Validar opção</button>
+            <button id="botaoVO">Validar opção</button>
         </div>
 
         <div>
             <label for="texto">Selecione sua escolaridade</label>
             <select name="dropdown">
-                <option value="contato">Ensino médio completo</option>
-                <option value="contato">Ensino Superior Incompleto</option>
-                <option value="contato">Ensino Superior cursando</option>
-                <option value="contato">Ensino Superior Completo</option>
+                <option id="em" value="contato">Ensino médio completo</option>
+                <option id="si" value="contato">Ensino Superior Incompleto</option>
+                <option id="scu" value="contato">Ensino Superior cursando</option>
+                <option id="sc" value="contato">Ensino Superior Completo</option>
             </select>
             <button id="botaoVT">Validar tópico</button>
         </div>
